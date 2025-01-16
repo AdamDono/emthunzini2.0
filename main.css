@@ -43,6 +43,7 @@ border-radius: 200px;
   color: #145F63;
   font-weight: bolder;
       font-size: 44px;
+      margin-top: -150px;
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -790,7 +791,13 @@ section,
   font-size: 32px;
 }
 
+.h{
 
+  font-family: var(--heading-font);
+  font-size: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .hero {
   padding: 0;
 }
