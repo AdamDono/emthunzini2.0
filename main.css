@@ -15,6 +15,35 @@
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
+@media (max-width: 767px) {
+
+  .carousel-slide{
+    margin-bottom: 200px;
+margin-left: -315px;
+
+  }
+  .carousel-slide img {
+    width: 422px;
+    height: 5px;
+    padding-top: 20px;
+      }
+    }
+
+
+.carousel-slide img {
+  height: 850px;
+border-radius: 40px;
+}
+
+.carousel-slide{
+border-radius: 200px;
+  padding-left: 320px;
+}
+.herr{
+  color: #145F63;
+  font-weight: bolder;
+      font-size: 44px;
+}
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
@@ -206,9 +235,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Global Header
---------------------------------------------------------------*/
+
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -239,9 +266,7 @@ h6 {
   box-shadow: 0px 0 18px color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
+
 /* Navmenu - Desktop */
 @media (min-width: 1200px) {
   .navmenu {
@@ -255,7 +280,7 @@ h6 {
     list-style: none;
     align-items: center;
   }
-
+  
   .navmenu li {
     position: relative;
   }
